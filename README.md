@@ -1,4 +1,4 @@
-# Developing a Multi-Personal 3D Simulation Environment with Efficient Path-Finding Algorithm
+# Developing a Multi-Users 3D Simulation Environment with Efficient Path-Finding Algorithm
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
