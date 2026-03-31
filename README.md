@@ -57,9 +57,14 @@ This project constructs a custom 3D rendering core to simulate a "Digital Vacuum
 
 ```bash
 git clone https://github.com/aungmyoPI/3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project.git
+```
+```bash
 cd 3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project
-
+```
+```bash
 cmake -B build -G Ninja
+```
+```bash
 ninja -C build
 ```
 
