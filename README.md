@@ -40,7 +40,7 @@ This project constructs a custom 3D rendering core to simulate a "Digital Vacuum
 - **Networking:** C++ Sockets
 - **Database:** MongoDB
 - **Algorithms:** A*, Finite State Machines (FSM)
-- **Build System:** CMake
+- **Build System:** CMake, Ninja
 
 ---
 
@@ -49,24 +49,23 @@ This project constructs a custom 3D rendering core to simulate a "Digital Vacuum
 ### Prerequisites
 - C++17 compatible compiler (GCC, Clang, MSVC)
 - OpenGL 3.3+
-- CMake
+- CMake, Ninja
 - MongoDB
 - Assimp / GLFW / GLM
 
 ### Installation
 
 ```bash
-git clone https://github.com/[YOUR_USERNAME]/[YOUR_REPO_NAME].git
-cd [YOUR_REPO_NAME]
+git clone https://github.com/aungmyoPI/3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project.git
+cd 3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project
 
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-cmake --build .
+cmake -B build -G Ninja
+ninja -C build
 ```
 
 Run the program:
 ```bash
-./MySimulationEngine
+./build/MyGame
 ```
 
 ---
@@ -84,11 +83,11 @@ Run the program:
 
 1. Fork the project
 2. Create your feature branch  
-   `git checkout -b feature/AmazingIdea`
+   `git checkout -b feature/AmazingIdea`😄
 3. Commit your changes  
-   `git commit -m 'Add AmazingIdea'`
+   `git commit -m 'Add AmazingIdea'`😄
 4. Push to the branch  
-   `git push origin feature/AmazingIdea`
+   `git push origin feature/AmazingIdea`😄
 5. Open a Pull Request
 
 ---
