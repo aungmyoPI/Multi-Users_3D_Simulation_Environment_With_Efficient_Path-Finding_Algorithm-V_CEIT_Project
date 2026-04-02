@@ -49,24 +49,30 @@ This project constructs a custom 3D rendering core to simulate a "Digital Vacuum
 ### Prerequisites
 - C++17 compatible compiler (GCC, Clang, MSVC)
 - OpenGL 3.3+
-- CMake
+- CMake, Ninja
 - MongoDB
 - Assimp / GLFW / GLM
 
 ### Installation
 
-```bash
-git clone https://github.com/[YOUR_USERNAME]/[YOUR_REPO_NAME].git
-cd [YOUR_REPO_NAME]
+- Open terminal or cmd or powershell as admin.
 
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-cmake --build .
+- copy/paste and press enter.
+
+```bash
+winget install Kitware.CMake
+winget install Ninja-build.Ninja
+
+git clone https://github.com/aungmyoPI/Multi-Users_3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project.git
+cd Multi-Users_3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project
+
+cmake -B build -G Ninja
+ninja -C build
 ```
 
 Run the program:
 ```bash
-./MySimulationEngine
+./build/MyGame
 ```
 
 ---
@@ -93,16 +99,9 @@ Run the program:
 
 ---
 
-## 👥 Authors
+## 👤 Supervisor 
 
-- Ma Thoon Thiri Swe — V IT - 12
-- Mg Nay Phone Myint — V IT - 6
-- Mg Hlwan Moe Aung — V IT - 15
-- Mg Aung Myo Pai — V IT - 19
-- Ma Khin Yadanar Win — V IT - 16
-- Mg Kaung Khant Ko Ko — V IT - 4
-
-**Supervisor:** Dr. Thandar Soe, Professor
+    Dr. Thandar Soe, Professor
 
 ---
 
