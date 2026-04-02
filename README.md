@@ -74,7 +74,7 @@ cd Multi-Users_3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V
 
 -Run the script (Download necessary dependencies -> Build the system -> Run the system)
 ```bash
-start
+start.cmd
 ```
 
 ---
