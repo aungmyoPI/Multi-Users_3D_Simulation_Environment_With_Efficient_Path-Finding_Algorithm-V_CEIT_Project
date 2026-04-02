@@ -1,4 +1,4 @@
-# Developing a Multi-Users 3D Simulation Environment with Efficient Path-Finding Algorithm
+# Developing a Multi-Personal 3D Simulation Environment with Efficient Path-Finding Algorithm
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -40,7 +40,7 @@ This project constructs a custom 3D rendering core to simulate a "Digital Vacuum
 - **Networking:** C++ Sockets
 - **Database:** MongoDB
 - **Algorithms:** A*, Finite State Machines (FSM)
-- **Build System:** CMake, Ninja
+- **Build System:** CMake
 
 ---
 
@@ -49,38 +49,24 @@ This project constructs a custom 3D rendering core to simulate a "Digital Vacuum
 ### Prerequisites
 - C++17 compatible compiler (GCC, Clang, MSVC)
 - OpenGL 3.3+
-- CMake, Ninja
+- CMake
 - MongoDB
 - Assimp / GLFW / GLM
-
-### Requirements (For Window)
-
-1. Open powershell as admin
-```bash
-winget install Ninja-build.Ninja
-```
-```bash
-winget install Kitware.CMake
-```
 
 ### Installation
 
 ```bash
-git clone https://github.com/aungmyoPI/3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project.git
-```
-```bash
-cd 3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project
-```
-```bash
-cmake -B build -G Ninja
-```
-```bash
-ninja -C build
+git clone https://github.com/[YOUR_USERNAME]/[YOUR_REPO_NAME].git
+cd [YOUR_REPO_NAME]
+
+mkdir build && cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake --build .
 ```
 
 Run the program:
 ```bash
-./build/MyGame
+./MySimulationEngine
 ```
 
 ---
@@ -98,14 +84,23 @@ Run the program:
 
 1. Fork the project
 2. Create your feature branch  
-   `git checkout -b feature/AmazingIdea`😄
+   `git checkout -b feature/AmazingIdea`
 3. Commit your changes  
-   `git commit -m 'Add AmazingIdea'`😄
+   `git commit -m 'Add AmazingIdea'`
 4. Push to the branch  
-   `git push origin feature/AmazingIdea`😄
+   `git push origin feature/AmazingIdea`
 5. Open a Pull Request
 
 ---
+
+## 👥 Authors
+
+- Ma Thoon Thiri Swe — V IT - 12
+- Mg Nay Phone Myint — V IT - 6
+- Mg Hlwan Moe Aung — V IT - 15
+- Mg Aung Myo Pai — V IT - 19
+- Ma Khin Yadanar Win — V IT - 16
+- Mg Kaung Khant Ko Ko — V IT - 4
 
 **Supervisor:** Dr. Thandar Soe, Professor
 
