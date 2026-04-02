@@ -53,37 +53,30 @@ This project constructs a custom 3D rendering core to simulate a "Digital Vacuum
 - MongoDB
 - Assimp / GLFW / GLM
 
-### Installation
+### Installation (For Window)
 
-- Open terminal or cmd or powershell as admin.
+- Open CMD as admin.
 
 - copy/paste and press enter.
 
-```bash
-winget install Kitware.CMake
-```
-```bash
-winget install Ninja-build.Ninja
-```
+- Change to 'D' Drive (Optional)
 ```bash
 D:
 ```
+
+- clone the repos
 ```bash
 git clone https://github.com/aungmyoPI/Multi-Users_3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project.git
 ```
+
+-move to cloned repos
 ```bash
 cd Multi-Users_3D_Simulation_Environment_With_Efficient_Path-Finding_Algorithm-V_CEIT_Project
 ```
-```bash
-cmake -B build -G Ninja
-```
-```bash
-ninja -C build
-```
 
-Run the program:
+-Run the scipt (Download necessary dependencies -> Build the system -> Run the system)
 ```bash
-./build/MyGame
+start
 ```
 
 ---
