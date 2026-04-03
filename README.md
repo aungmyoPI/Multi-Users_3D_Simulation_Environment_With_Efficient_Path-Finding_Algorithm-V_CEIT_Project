@@ -47,6 +47,8 @@ This project constructs a custom 3D rendering core to simulate a "Digital Vacuum
 ## 🚀 Getting Started (Initial Setup)
 
 ### Prerequisites
+- GitHub account
+- Git (setup) -> Recommend to watch video on setting up both git and github
 - C++17 compatible compiler (GCC, Clang, MSVC)
 - OpenGL 3.3+
 - CMake, Ninja
